@@ -1,5 +1,6 @@
 //accordion.js
-import tracker from './tracker';
+import tracker from '../utils/tracker';
+import styles from './accordion.css';
 
 let accordion = document.createElement('div');
 accordion.innerHTML = 'This is the accordion text.';

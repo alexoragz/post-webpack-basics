@@ -1,4 +1,5 @@
-import tracker from './tracker';
+import tracker from '../utils/tracker';
+import styles from './counter.css';
 
 let counter = document.createElement('div');
 counter.innerHTML = 'Counter: ';

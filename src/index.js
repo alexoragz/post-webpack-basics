@@ -1,2 +1,2 @@
-require('./accordion');
-require('./counter');
+require('./accordion/accordion');
+require('./counter/counter');

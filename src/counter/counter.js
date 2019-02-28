@@ -4,6 +4,7 @@ import styles from './counter.css';
 let counter = document.createElement('div');
 counter.innerHTML = 'Counter: ';
 counter.style.color = 'tomato';
+counter.classList.add('counter');
 document.body.appendChild(counter);
 
 tracker.track('Counter');

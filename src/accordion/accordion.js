@@ -4,6 +4,7 @@ import styles from './accordion.css';
 
 let accordion = document.createElement('div');
 accordion.innerHTML = 'This is the accordion text.';
+accordion.classList.add('accordion');
 accordion.style.display = 'inline-block';
 
 let toggle = document.createElement('button');

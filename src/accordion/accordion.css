@@ -2,5 +2,6 @@
   font-family: serif;
   transition: 1s;
   margin: 1rem;
-  background-color: light-grey;
+  background-color: lightgrey;
+  padding: 1rem;
 }
